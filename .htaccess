@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^patronatohrmi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.patronatohrmi\.com$
+RewriteRule ^webmail$ "https\:\/\/vps\.influx\.com\.mx\:2096\/" [R=301,L]
+
